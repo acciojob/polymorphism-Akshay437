@@ -20,7 +20,7 @@ public class Main {
         product p= new product();
         System.out.println(p.product(1,2));
         System.out.println(p.product(1,2,3));
-        System.out.println(p.product(1.1,2.2));
+        System.out.println(p.product(1.2,2.4));
 
     }
 
