@@ -18,10 +18,9 @@ public class Main {
     public static void main(String[]args)
     {
         product p= new product();
-        int i=p.product(1,2);
-        int j=p.product(1,2,3);
-        var k=p.product(1.1,2.2);
-
+        System.out.print(p.product(1,2));
+        System.out.print(p.product(1,2,3));
+        System.out.print(p.product(1.1,2.2));
 
     }
 
