@@ -17,10 +17,10 @@ public class Main {
     }
     public static void main(String[]args)
     {
-        product p= new product();
-        System.out.println(p.product(1,2));
-        System.out.println(p.product(1,2,3));
-        System.out.println(p.product(1.2,2.4));
+        Product P= new Product();
+        System.out.println(P.product(1,2));
+        System.out.println(P.product(1,2,3));
+        System.out.println(P.product(1.2,2.4));
 
     }
 
